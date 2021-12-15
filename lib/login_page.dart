@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
         child: (Column(
           children: [
             Padding(
-              padding: const EdgeInsets.fromLTRB(0, 30, 370, 20),
+              padding: const EdgeInsets.fromLTRB(0, 30, 360, 20),
               child: IconButton(
                 iconSize: 28,
                 color: Colors.white,
