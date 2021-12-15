@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class ButtonHomePage extends StatelessWidget {
-  String name;
-  String logo;
+  final String name;
+  final String logo;
 
-  ButtonHomePage({
+  const ButtonHomePage({
     Key? key,
     required this.name,
     required this.logo,
@@ -12,14 +12,14 @@ class ButtonHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       width: 375,
       height: 50,
       child: OutlinedButton(
         style: OutlinedButton.styleFrom(
             primary: Colors.white,
-            shape: StadiumBorder(),
-            side: BorderSide(
+            shape: const StadiumBorder(),
+            side: const BorderSide(
                 width: 2.0, color: Colors.white, style: BorderStyle.solid)),
         onPressed: () {},
         child: Stack(
@@ -37,7 +37,7 @@ class ButtonHomePage extends StatelessWidget {
                   onPressed: () {},
                   child: Text(
                     name,
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: Colors.white,
                     ),
                   ),

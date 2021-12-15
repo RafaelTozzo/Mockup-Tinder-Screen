@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
                 iconSize: 28,
                 color: Colors.white,
                 onPressed: () {},
-                icon: Icon(Icons.arrow_back_ios_rounded),
+                icon: const Icon(Icons.arrow_back_ios_rounded),
               ),
             ),
             Image.asset(
@@ -68,17 +68,17 @@ class HomePage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 10),
-            ButtonHomePage(
+            const ButtonHomePage(
               name: 'SIGN IN WITH APPLE',
               logo: 'assets/images/apple_logo.png',
             ),
             const SizedBox(height: 10),
-            ButtonHomePage(
+            const ButtonHomePage(
               name: 'SIGN IN WITH FACEBOOK',
               logo: 'assets/images/facebook_logo.png',
             ),
             const SizedBox(height: 10),
-            ButtonHomePage(
+            const ButtonHomePage(
               name: 'SIGN IN WITH PHONE NUMBER',
               logo: 'assets/images/phone.png',
             ),

@@ -3,13 +3,15 @@ import 'package:flutter/cupertino.dart';
 import 'login_page.dart';
 
 void main() {
-  runApp(AppWidget());
+  runApp(const AppWidget());
 }
 
 class AppWidget extends StatelessWidget {
+  const AppWidget({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
