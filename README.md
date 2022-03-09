@@ -1,4 +1,4 @@
-# tinder_screen2
+# Mockup Tinder Screen
 
 The objective is to create a tinder homepage using Flutter.
 
